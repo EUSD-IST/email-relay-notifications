@@ -6,7 +6,7 @@ A comprehensive email monitoring and notification system for Postfix mail relays
 ## Current Configuration
 - **Primary Script**: `/usr/local/bin/postfix_daily_summary.py`
 - **Queue Monitor**: `/usr/local/bin/postfix_queue_alert.py`
-- **Cron Schedule**: Daily reports at 4:00 PM, queue alerts every 15 minutes
+- **Cron Schedule**: Daily reports at 8:00 PM, queue alerts every 15 minutes
 - **Report Recipient**: jstephens@eusd.org
 - **Sender Address**: mailrelay@eusd.org
 
