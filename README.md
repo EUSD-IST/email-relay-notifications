@@ -70,9 +70,8 @@ A comprehensive monitoring system for Postfix email relays with professional rep
 
 3. Add cron jobs:
    ```bash
-   # Daily summary at 3 PM and 8 PM
-   0 15 * * * /usr/local/bin/postfix_daily_summary.py
-   0 20 * * * /usr/local/bin/postfix_daily_summary.py
+   # Daily summary at 4:25 PM
+   25 16 * * * /usr/local/bin/postfix_daily_summary.py
    
    # Queue monitoring every 15 minutes
    */15 * * * * /usr/local/bin/postfix_queue_alert.py >/dev/null 2>&1
